@@ -4,6 +4,8 @@
 .vs/
 **.user
 /Properties/PublishProfiles/
+nuget.config
+nupkg/
 
 # Configuration files with sensitive data
 settings.*.json
