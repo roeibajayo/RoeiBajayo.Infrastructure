@@ -12,6 +12,24 @@
     <LangVersion>latest</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Nullable>enable</Nullable>
+    
+    <!-- NuGet Package Metadata -->
+    <PackageId>Infrastructure.Utils</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>roeibajayo@gmail.com</Authors>
+    <Company>RoeiBajayo</Company>
+    <Product>Infrastructure.Utils</Product>
+    <Description>A comprehensive .NET utility library providing common infrastructure components and extensions for modern C# applications. Features include HTTP clients, data storage, security utilities, dependency injection, text processing, and more.</Description>
+    <Copyright>Copyright © 2025</Copyright>
+    <PackageProjectUrl>https://github.com/yourusername/Infrastructure.Utils</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yourusername/Infrastructure.Utils</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>utilities;infrastructure;extensions;http;security;dependency-injection;caching;text-processing;async;threading</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,6 +51,10 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
     <PackageReference Include="NAudio" Version="2.2.1" />
     <PackageReference Include="System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

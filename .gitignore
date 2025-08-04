@@ -6,10 +6,10 @@
 /Properties/PublishProfiles/
 
 # Configuration files with sensitive data
-appsettings.*.json
-appsettings.Development.json
-appsettings.Production.json
-appsettings.Local.json
+settings.*.json
+settings.Development.json
+settings.Production.json
+settings.Local.json
 
 # Environment files
 .env
