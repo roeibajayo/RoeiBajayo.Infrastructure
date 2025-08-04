@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Infrastructure.Utils.MessagePackUtils\**" />
+    <Compile Remove="TestConsole\**" />
+    <Compile Remove="UnitTestProject\**" />
+    <EmbeddedResource Remove="Infrastructure.Utils.MessagePackUtils\**" />
+    <EmbeddedResource Remove="TestConsole\**" />
+    <EmbeddedResource Remove="UnitTestProject\**" />
+    <None Remove="Infrastructure.Utils.MessagePackUtils\**" />
+    <None Remove="TestConsole\**" />
+    <None Remove="UnitTestProject\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatorCore" Version="1.7.8" />
+    <PackageReference Include="MemoryCore" Version="1.6.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="System.Text.Json" Version="8.0.5" />
+  </ItemGroup>
+
+</Project>
