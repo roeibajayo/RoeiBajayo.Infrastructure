@@ -1,13 +1,13 @@
-﻿using Infrastructure.Utils.Http;
-using Infrastructure.Utils.Http.Models;
-using Infrastructure.Utils.Social.Models;
+﻿using RoeiBajayo.Infrastructure.Http;
+using RoeiBajayo.Infrastructure.Http.Models;
+using RoeiBajayo.Infrastructure.Social.Models;
 using MediatorCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Social.Handlers;
+namespace RoeiBajayo.Infrastructure.Social.Handlers;
 
 internal class PushMessageHandler(IServiceScopeFactory serviceScopeFactory) :
     IQueueHandler<TelegramPushMessageRequest>

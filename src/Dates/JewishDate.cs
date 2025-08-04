@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Infrastructure.Utils.Dates;
+namespace RoeiBajayo.Infrastructure.Dates;
 
 public readonly struct JewishDate(int hebDay, int hebMonth, int hebYear)
 {

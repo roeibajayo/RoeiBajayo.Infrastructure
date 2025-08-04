@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.DependencyInjection.ScopedCache;
+namespace RoeiBajayo.Infrastructure.DependencyInjection.ScopedCache;
 
 public interface IScopedCache
 {

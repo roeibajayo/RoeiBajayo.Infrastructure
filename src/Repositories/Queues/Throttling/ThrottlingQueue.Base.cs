@@ -1,13 +1,13 @@
-﻿using Infrastructure.Utils.Dates;
-using Infrastructure.Utils.Repositories.Queues.Throttling.Models;
-using Infrastructure.Utils.Threads;
+﻿using RoeiBajayo.Infrastructure.Dates;
+using RoeiBajayo.Infrastructure.Repositories.Queues.Throttling.Models;
+using RoeiBajayo.Infrastructure.Threads;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Repositories.Queues.Throttling;
+namespace RoeiBajayo.Infrastructure.Repositories.Queues.Throttling;
 
 public abstract class ThrottlingQueueBase<T>
 {

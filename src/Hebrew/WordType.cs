@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Utils.Hebrew;
+﻿namespace RoeiBajayo.Infrastructure.Hebrew;
 
 public enum WordType
 {

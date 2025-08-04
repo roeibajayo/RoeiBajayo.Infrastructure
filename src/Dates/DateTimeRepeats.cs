@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Infrastructure.Utils.Dates;
+namespace RoeiBajayo.Infrastructure.Dates;
 
 public sealed class DateTimeRepeats
 {

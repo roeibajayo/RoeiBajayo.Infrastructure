@@ -1,7 +1,7 @@
-﻿using Infrastructure.Utils.Repositories.Files;
+﻿using RoeiBajayo.Infrastructure.Repositories.Files;
 using System.Collections.Generic;
 
-namespace Infrastructure.Utils.Repositories.Persistent;
+namespace RoeiBajayo.Infrastructure.Repositories.Persistent;
 
 public class SaveableList<T> : List<T>
 {

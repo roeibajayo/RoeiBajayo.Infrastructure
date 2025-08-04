@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Utils.Security;
+namespace RoeiBajayo.Infrastructure.Security;
 
 public static class SignatureValidator
 {

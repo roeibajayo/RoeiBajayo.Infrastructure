@@ -1,7 +1,7 @@
 ﻿using System.Text.Encodings.Web;
 using System.Text.Json;
 
-namespace Infrastructure.Utils.Repositories.Files.Serializers;
+namespace RoeiBajayo.Infrastructure.Repositories.Files.Serializers;
 
 public class JsonSerializer<T> : ISerializer<T>
 {

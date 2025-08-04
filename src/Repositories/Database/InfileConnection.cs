@@ -3,7 +3,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace Infrastructure.Utils.Repositories.Database;
+namespace RoeiBajayo.Infrastructure.Repositories.Database;
 
 public abstract class InfileConnection<T>(string basePath, string name) : IDisposable
 {

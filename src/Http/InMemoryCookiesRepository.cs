@@ -1,8 +1,8 @@
-﻿using Infrastructure.Utils.Http.Models;
+﻿using RoeiBajayo.Infrastructure.Http.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Infrastructure.Utils.Http;
+namespace RoeiBajayo.Infrastructure.Http;
 
 public class InMemoryCookiesRepository : ICookiesRepository
 {

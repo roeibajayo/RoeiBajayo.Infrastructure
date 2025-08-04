@@ -1,10 +1,10 @@
-﻿using Infrastructure.Utils.Text.Analyzers.FrequencyAnalyzerStores;
+﻿using RoeiBajayo.Infrastructure.Text.Analyzers.FrequencyAnalyzerStores;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Infrastructure.Utils.Text.Analyzers;
+namespace RoeiBajayo.Infrastructure.Text.Analyzers;
 
 /// <summary>
 /// Used to analyze the frequency of words or phrases within a given input of sentences.

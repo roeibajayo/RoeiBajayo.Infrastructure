@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Text;
 
-namespace Infrastructure.Utils.Security;
+namespace RoeiBajayo.Infrastructure.Security;
 
 public static class MD5
 {

@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace Infrastructure.Utils.Hebrew;
+namespace RoeiBajayo.Infrastructure.Hebrew;
 
 public static class HebrewExtensions
 {

@@ -1,7 +1,7 @@
-﻿using Infrastructure.Utils.Dates;
+﻿using RoeiBajayo.Infrastructure.Dates;
 using System;
 
-namespace Infrastructure.Utils.Repositories.Queues.Throttling.Models;
+namespace RoeiBajayo.Infrastructure.Repositories.Queues.Throttling.Models;
 
 public sealed class ThrottlingTimeSpan(TimeSpan timeSpan, int maxExecutes, bool isFixed = false) : EnhancedTimeSpan(timeSpan, isFixed)
 {

@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Utils.Repositories.Database;
+﻿namespace RoeiBajayo.Infrastructure.Repositories.Database;
 
 public class JsonInfileConnection<T> : InfileConnection<T>
 {

@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Threads;
+namespace RoeiBajayo.Infrastructure.Threads;
 
 public static partial class Tasks
 {

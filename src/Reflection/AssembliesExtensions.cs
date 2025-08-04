@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace Infrastructure.Utils.Reflection;
+namespace RoeiBajayo.Infrastructure.Reflection;
 
 public static class AssembliesExtensions
 {

@@ -1,9 +1,9 @@
-﻿using Infrastructure.Utils.Http.Models;
+﻿using RoeiBajayo.Infrastructure.Http.Models;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Http;
+namespace RoeiBajayo.Infrastructure.Http;
 
 public interface IRestClient
 {

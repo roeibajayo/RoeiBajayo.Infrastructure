@@ -1,9 +1,9 @@
-using Infrastructure.Utils.Repositories;
-using Infrastructure.Utils.Repositories.Database;
-using Infrastructure.Utils.Repositories.Persistent;
-using Infrastructure.Utils.Repositories.Queues;
-using Infrastructure.Utils.Repositories.Queues.Throttling;
-using Infrastructure.Utils.Repositories.Queues.Throttling.Models;
+using RoeiBajayo.Infrastructure.Repositories;
+using RoeiBajayo.Infrastructure.Repositories.Database;
+using RoeiBajayo.Infrastructure.Repositories.Persistent;
+using RoeiBajayo.Infrastructure.Repositories.Queues;
+using RoeiBajayo.Infrastructure.Repositories.Queues.Throttling;
+using RoeiBajayo.Infrastructure.Repositories.Queues.Throttling.Models;
 using Xunit;
 using System;
 using System.Diagnostics;
@@ -378,9 +378,9 @@ public class Repositories
                 {
                     Age = c + i,
                     Name = "Roei" + (c + i),
-                    UserName = Infrastructure.Utils.Security.UserSecurity.Default.GeneratePassword(),
-                    Email = Infrastructure.Utils.Security.UserSecurity.Default.GeneratePassword() + "@gmail.com",
-                    Password = Infrastructure.Utils.Security.UserSecurity.Default.GeneratePassword()
+                    UserName = RoeiBajayo.Infrastructure.Security.UserSecurity.Default.GeneratePassword(),
+                    Email = RoeiBajayo.Infrastructure.Security.UserSecurity.Default.GeneratePassword() + "@gmail.com",
+                    Password = RoeiBajayo.Infrastructure.Security.UserSecurity.Default.GeneratePassword()
                 };
             }
             connection.Collection.AddRange(massiveItems);

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Infrastructure.Utils.Repositories;
+namespace RoeiBajayo.Infrastructure.Repositories;
 
 /// <summary>
 /// High-performance List that saves only the last added items

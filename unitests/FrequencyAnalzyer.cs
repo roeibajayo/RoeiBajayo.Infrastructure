@@ -1,4 +1,4 @@
-﻿using Infrastructure.Utils.Text.Analyzers;
+﻿using RoeiBajayo.Infrastructure.Text.Analyzers;
 using Xunit;
 using System.Collections.Generic;
 using System.Linq;

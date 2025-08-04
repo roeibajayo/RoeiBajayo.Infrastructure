@@ -2,7 +2,7 @@
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Processes;
+namespace RoeiBajayo.Infrastructure.Processes;
 
 public static class NodeJsProcess
 {

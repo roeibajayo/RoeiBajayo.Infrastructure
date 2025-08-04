@@ -1,10 +1,10 @@
-﻿using Infrastructure.Utils.DependencyInjection.Interfaces;
+﻿using RoeiBajayo.Infrastructure.DependencyInjection.Interfaces;
 using System;
 using System.Collections.Concurrent;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Threads.KeyedLocker;
+namespace RoeiBajayo.Infrastructure.Threads.KeyedLocker;
 
 public class KeyedLocker : ISingletonService<IKeyedLocker>, IKeyedLocker
 {

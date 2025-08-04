@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Utils", "src\Infrastructure.Utils.csproj", "{AB64BD68-9F8F-98FA-0B78-407D9E9C3B9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoeiBajayo.Infrastructure", "src\RoeiBajayo.Infrastructure.csproj", "{AB64BD68-9F8F-98FA-0B78-407D9E9C3B9A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "test-console\TestConsole.csproj", "{A70AB0DB-803C-E4CE-41FA-3C6540B088D6}"
 EndProject

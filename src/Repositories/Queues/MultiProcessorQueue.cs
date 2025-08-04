@@ -1,10 +1,10 @@
-﻿using Infrastructure.Utils.Threads;
+﻿using RoeiBajayo.Infrastructure.Threads;
 using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Repositories.Queues;
+namespace RoeiBajayo.Infrastructure.Repositories.Queues;
 
 /// <summary>
 /// Thread-safe FIFO queue that allows enqueuing items of type T and processing them asynchronously 

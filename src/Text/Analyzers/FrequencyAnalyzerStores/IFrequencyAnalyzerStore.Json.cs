@@ -1,8 +1,8 @@
-﻿//using Infrastructure.Utils.Repositires.Persistent;
+﻿//using RoeiBajayo.Infrastructure.Repositires.Persistent;
 //using System;
 //using System.Linq;
 
-//namespace Infrastructure.Utils.Text.Analyzers.FrequencyAnalyzerStores
+//namespace RoeiBajayo.Infrastructure.Text.Analyzers.FrequencyAnalyzerStores
 //{
 //    public class JsonStore : IFrequencyAnalyzerStore
 //    {

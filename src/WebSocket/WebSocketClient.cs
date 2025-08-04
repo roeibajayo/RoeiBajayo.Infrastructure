@@ -1,4 +1,4 @@
-﻿using Infrastructure.Utils.Threads;
+﻿using RoeiBajayo.Infrastructure.Threads;
 using System;
 using System.Buffers;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Threading;
 using System.Threading.Channels;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.WebSocket;
+namespace RoeiBajayo.Infrastructure.WebSocket;
 
 /// <summary>
 /// Thread-safe WebSocket client

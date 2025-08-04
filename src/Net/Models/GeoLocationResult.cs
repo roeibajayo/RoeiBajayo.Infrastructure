@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Utils.Net.Models;
+﻿namespace RoeiBajayo.Infrastructure.Net.Models;
 
 public class GeoLocationResult
 {

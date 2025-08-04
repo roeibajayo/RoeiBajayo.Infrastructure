@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Threads;
+namespace RoeiBajayo.Infrastructure.Threads;
 
 public interface ITaskPool: IDisposable
 {

@@ -1,8 +1,8 @@
 ﻿using BenchmarkDotNet.Running;
-using Infrastructure.Utils;
-using Infrastructure.Utils.TextToSpeech.Interfaces;
-using Infrastructure.Utils.TextToSpeech.Models;
-using Infrastructure.Utils.Threads;
+using RoeiBajayo.Infrastructure;
+using RoeiBajayo.Infrastructure.TextToSpeech.Interfaces;
+using RoeiBajayo.Infrastructure.TextToSpeech.Models;
+using RoeiBajayo.Infrastructure.Threads;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;

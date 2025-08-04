@@ -1,4 +1,4 @@
-﻿using Infrastructure.Utils.Numbers;
+﻿using RoeiBajayo.Infrastructure.Numbers;
 using Xunit;
 
 namespace UnitTestProject;

@@ -1,5 +1,5 @@
-﻿using Infrastructure.Utils.Expressions;
-using Infrastructure.Utils.Repositories.Queues;
+﻿using RoeiBajayo.Infrastructure.Expressions;
+using RoeiBajayo.Infrastructure.Repositories.Queues;
 using System;
 using System.Buffers;
 using System.Collections;
@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace Infrastructure.Utils.Repositories.Persistent;
+namespace RoeiBajayo.Infrastructure.Repositories.Persistent;
 
 /// <summary>
 /// Infile collection with option to use index file so all changes will append to the file instead of rewrite whole file.

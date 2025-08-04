@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Utils.Dates;
+namespace RoeiBajayo.Infrastructure.Dates;
 
 public class EnhancedTimeSpan(TimeSpan timeSpan, bool isFixed = false)
 {

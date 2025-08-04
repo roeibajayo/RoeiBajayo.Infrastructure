@@ -1,5 +1,5 @@
-﻿using Infrastructure.Utils.TextToSpeech.Interfaces;
-using Infrastructure.Utils.TextToSpeech.Models;
+﻿using RoeiBajayo.Infrastructure.TextToSpeech.Interfaces;
+using RoeiBajayo.Infrastructure.TextToSpeech.Models;
 using MediatorCore;
 using Microsoft.Extensions.Logging;
 using NAudio.Wave;
@@ -8,7 +8,7 @@ using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.TextToSpeech;
+namespace RoeiBajayo.Infrastructure.TextToSpeech;
 
 internal class SpeechHandler(ILogger<SpeechHandler> logger, ITextToSpeech service) : IQueueHandler<SpeechMessage>
 {

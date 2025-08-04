@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Threads;
+namespace RoeiBajayo.Infrastructure.Threads;
 
 /// <summary>
 /// pool that allows you to enqueue tasks and runs them concurrently, up to a maximum number specified when the TaskPool is constructed. 

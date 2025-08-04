@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Infrastructure.Utils.Hebrew;
+namespace RoeiBajayo.Infrastructure.Hebrew;
 
 public class HebrewParser
 {

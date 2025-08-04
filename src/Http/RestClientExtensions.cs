@@ -1,5 +1,5 @@
-﻿using Infrastructure.Utils.Http.Models;
-using Infrastructure.Utils.Text;
+﻿using RoeiBajayo.Infrastructure.Http.Models;
+using RoeiBajayo.Infrastructure.Text;
 using System;
 using System.IO;
 using System.Net.Http;
@@ -7,7 +7,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Http;
+namespace RoeiBajayo.Infrastructure.Http;
 
 public static class RestClientExtensions
 {

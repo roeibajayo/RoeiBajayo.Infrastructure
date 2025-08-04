@@ -1,4 +1,4 @@
-﻿using Infrastructure.Utils.Dates;
+﻿using RoeiBajayo.Infrastructure.Dates;
 using Xunit;
 using System;
 using System.Linq;
@@ -16,16 +16,16 @@ public class Dates
             new DateTime(2020, 4, 14).ToJewishDateString());
 
         Assert.Equal("פורים קטן",
-            Infrastructure.Utils.Dates.JewishDate.FromDateTime(new DateTime(2019, 2, 19)).GetHoliday());
+            RoeiBajayo.Infrastructure.Dates.JewishDate.FromDateTime(new DateTime(2019, 2, 19)).GetHoliday());
 
         Assert.Equal("תענית אסתר",
-            Infrastructure.Utils.Dates.JewishDate.FromDateTime(new DateTime(2019, 3, 20)).GetHoliday());
+            RoeiBajayo.Infrastructure.Dates.JewishDate.FromDateTime(new DateTime(2019, 3, 20)).GetHoliday());
 
         Assert.Equal("ערב פסח",
-            Infrastructure.Utils.Dates.JewishDate.FromDateTime(new DateTime(2019, 4, 19)).GetHoliday());
+            RoeiBajayo.Infrastructure.Dates.JewishDate.FromDateTime(new DateTime(2019, 4, 19)).GetHoliday());
 
         Assert.Equal("ערב שביעי של פסח",
-            Infrastructure.Utils.Dates.JewishDate.FromDateTime(new DateTime(2020, 4, 14)).GetHoliday());
+            RoeiBajayo.Infrastructure.Dates.JewishDate.FromDateTime(new DateTime(2020, 4, 14)).GetHoliday());
     }
 
     [Fact]

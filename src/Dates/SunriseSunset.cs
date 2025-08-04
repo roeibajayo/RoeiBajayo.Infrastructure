@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Utils.Dates;
+namespace RoeiBajayo.Infrastructure.Dates;
 
 public static class SunriseSunset
 {

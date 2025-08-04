@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Utils.Http.Models;
+﻿namespace RoeiBajayo.Infrastructure.Http.Models;
 
 public interface IRestClientFactory
 {

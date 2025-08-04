@@ -22,7 +22,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\src\Infrastructure.Utils.csproj" />
+    <ProjectReference Include="..\src\RoeiBajayo.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

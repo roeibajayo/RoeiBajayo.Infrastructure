@@ -1,4 +1,4 @@
-﻿using Infrastructure.Utils.Text;
+﻿using RoeiBajayo.Infrastructure.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;

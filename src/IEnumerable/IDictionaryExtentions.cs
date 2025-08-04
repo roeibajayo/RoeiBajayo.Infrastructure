@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-namespace Infrastructure.Utils.IEnumerable;
+namespace RoeiBajayo.Infrastructure.IEnumerable;
 
 public static class IDictionaryExtentions
 {

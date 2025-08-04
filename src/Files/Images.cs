@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Infrastructure.Utils.Files;
+namespace RoeiBajayo.Infrastructure.Files;
 
 public static class Images
 {

@@ -3,7 +3,7 @@ using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Infrastructure.Utils.Repositories.Persistent;
+namespace RoeiBajayo.Infrastructure.Repositories.Persistent;
 
 public class JsonPersistentCollection<T> : PersistentCollection<T> where T : class
 {

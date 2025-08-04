@@ -1,9 +1,9 @@
-﻿using Infrastructure.Utils.DependencyInjection.Interfaces;
-using Infrastructure.Utils.Repositories.Files;
+﻿using RoeiBajayo.Infrastructure.DependencyInjection.Interfaces;
+using RoeiBajayo.Infrastructure.Repositories.Files;
 using System.Collections.Generic;
 using System.Text.Json;
 
-namespace Infrastructure.Utils.Repositories.Persistent;
+namespace RoeiBajayo.Infrastructure.Repositories.Persistent;
 
 public interface IKeyValueStore
 {

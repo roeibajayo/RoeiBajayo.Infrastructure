@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Infrastructure.Utils.Text.Analyzers.FrequencyAnalyzerStores;
+namespace RoeiBajayo.Infrastructure.Text.Analyzers.FrequencyAnalyzerStores;
 
 public interface IDeepStore
 {

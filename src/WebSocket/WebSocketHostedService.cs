@@ -1,4 +1,4 @@
-﻿using Infrastructure.Utils.Threads;
+﻿using RoeiBajayo.Infrastructure.Threads;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.WebSocket;
+namespace RoeiBajayo.Infrastructure.WebSocket;
 
 public abstract class WebSocketHostedService(ILogger logger) 
     : IHostedService, IDisposable

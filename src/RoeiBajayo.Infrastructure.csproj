@@ -14,15 +14,15 @@
     <Nullable>enable</Nullable>
     
     <!-- NuGet Package Metadata -->
-    <PackageId>Infrastructure.Utils</PackageId>
+    <PackageId>RoeiBajayo.Infrastructure</PackageId>
     <Version>1.0.0</Version>
     <Authors>roeibajayo@gmail.com</Authors>
     <Company>RoeiBajayo</Company>
-    <Product>Infrastructure.Utils</Product>
+    <Product>RoeiBajayo.Infrastructure</Product>
     <Description>A comprehensive .NET utility library providing common infrastructure components and extensions for modern C# applications. Features include HTTP clients, data storage, security utilities, dependency injection, text processing, and more.</Description>
     <Copyright>Copyright © 2025</Copyright>
-    <PackageProjectUrl>https://github.com/yourusername/Infrastructure.Utils</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/yourusername/Infrastructure.Utils</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/roeibajayo/RoeiBajayo.Infrastructure</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/roeibajayo/RoeiBajayo.Infrastructure</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>utilities;infrastructure;extensions;http;security;dependency-injection;caching;text-processing;async;threading</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -31,18 +31,6 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Infrastructure.Utils.MessagePackUtils\**" />
-    <Compile Remove="TestConsole\**" />
-    <Compile Remove="UnitTestProject\**" />
-    <EmbeddedResource Remove="Infrastructure.Utils.MessagePackUtils\**" />
-    <EmbeddedResource Remove="TestConsole\**" />
-    <EmbeddedResource Remove="UnitTestProject\**" />
-    <None Remove="Infrastructure.Utils.MessagePackUtils\**" />
-    <None Remove="TestConsole\**" />
-    <None Remove="UnitTestProject\**" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MediatorCore" Version="1.7.8" />

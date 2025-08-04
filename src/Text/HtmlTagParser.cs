@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Text;
+namespace RoeiBajayo.Infrastructure.Text;
 
 public sealed class HtmlTagParser
 {

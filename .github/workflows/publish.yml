@@ -1,4 +1,4 @@
-name: Publish Infrastructure.Utils NuGet Package
+name: Publish RoeiBajayo.Infrastructure NuGet Package
 
 on:
   push:
@@ -22,16 +22,16 @@ jobs:
             9.0.x
 
       - name: Restore dependencies
-        run: dotnet restore src/Infrastructure.Utils.csproj
+        run: dotnet restore src/RoeiBajayo.Infrastructure.csproj
 
       - name: Build
-        run: dotnet build src/Infrastructure.Utils.csproj --no-restore --configuration Release
+        run: dotnet build src/RoeiBajayo.Infrastructure.csproj --no-restore --configuration Release
 
       - name: Run tests
         run: dotnet test unitests/UnitTestProject.csproj --no-restore --configuration Release
 
       - name: Pack NuGet package
-        run: dotnet pack src/Infrastructure.Utils.csproj --no-build --configuration Release --output ./nupkg
+        run: dotnet pack src/RoeiBajayo.Infrastructure.csproj --no-build --configuration Release --output ./nupkg
 
       - name: Publish to NuGet
         run: dotnet nuget push "./nupkg/*.nupkg" --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_API_KEY }} --skip-duplicate

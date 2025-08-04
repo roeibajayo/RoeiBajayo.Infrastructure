@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 
-namespace Infrastructure.Utils.Http.Models;
+namespace RoeiBajayo.Infrastructure.Http.Models;
 
 public sealed class InvalidResponseException(string message, Exception innerException) : 
     Exception(message, innerException)

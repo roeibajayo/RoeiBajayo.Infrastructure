@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text.Json.Nodes;
 
-namespace Infrastructure.Utils.Http.Models;
+namespace RoeiBajayo.Infrastructure.Http.Models;
 
 public class ProblemJsonException(int statusCode, string type, string title, string detail, string instance, 
     Dictionary<string, JsonNode?> extensions) : Exception

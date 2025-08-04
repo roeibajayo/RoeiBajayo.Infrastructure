@@ -1,10 +1,10 @@
-﻿using Infrastructure.Utils.Threads.KeyedLocker;
+﻿using RoeiBajayo.Infrastructure.Threads.KeyedLocker;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.DependencyInjection.ScopedCache;
+namespace RoeiBajayo.Infrastructure.DependencyInjection.ScopedCache;
 
 internal sealed class ScopedCacheManager(IKeyedLocker keyedLocker) : IScopedCache
 {

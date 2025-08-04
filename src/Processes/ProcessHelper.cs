@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace Infrastructure.Utils.Processes;
+namespace RoeiBajayo.Infrastructure.Processes;
 
 public static class ProcessHelper
 {

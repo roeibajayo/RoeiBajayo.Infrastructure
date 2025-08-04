@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Channels;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Repositories.Queues;
+namespace RoeiBajayo.Infrastructure.Repositories.Queues;
 
 /// <summary>
 /// Thread-safe FIFO queue that lock the TryDequeue method if no elements in the queue

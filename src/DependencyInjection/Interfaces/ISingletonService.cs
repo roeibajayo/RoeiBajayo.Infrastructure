@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Utils.DependencyInjection.Interfaces;
+﻿namespace RoeiBajayo.Infrastructure.DependencyInjection.Interfaces;
 
 /// <summary>
 /// Represents a service with a singleton lifetime.

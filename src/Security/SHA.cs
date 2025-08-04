@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Infrastructure.Utils.Security;
+namespace RoeiBajayo.Infrastructure.Security;
 
 public static class SHA
 {

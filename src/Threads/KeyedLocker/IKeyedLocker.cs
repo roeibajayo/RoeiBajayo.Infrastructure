@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Threads.KeyedLocker;
+namespace RoeiBajayo.Infrastructure.Threads.KeyedLocker;
 
 public interface IKeyedLocker
 {

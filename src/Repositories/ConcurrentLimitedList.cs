@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace Infrastructure.Utils.Repositories;
+namespace RoeiBajayo.Infrastructure.Repositories;
 
 /// <summary>
 /// High-performance List that saves only the last added items. Thread-safe.

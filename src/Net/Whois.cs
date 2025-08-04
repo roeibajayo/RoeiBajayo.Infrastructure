@@ -1,10 +1,10 @@
-﻿using Infrastructure.Utils.DependencyInjection.Interfaces;
-using Infrastructure.Utils.Http;
-using Infrastructure.Utils.Net.Models;
+﻿using RoeiBajayo.Infrastructure.DependencyInjection.Interfaces;
+using RoeiBajayo.Infrastructure.Http;
+using RoeiBajayo.Infrastructure.Net.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Net;
+namespace RoeiBajayo.Infrastructure.Net;
 
 public class Whois(IRestClient client) : ISingletonService
 {

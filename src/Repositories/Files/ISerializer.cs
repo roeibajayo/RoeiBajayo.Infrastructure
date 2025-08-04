@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Utils.Repositories.Files;
+﻿namespace RoeiBajayo.Infrastructure.Repositories.Files;
 
 public interface ISerializer<T>
 {

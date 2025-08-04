@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Infrastructure.Utils.DependencyInjection.ScopedCache;
+namespace RoeiBajayo.Infrastructure.DependencyInjection.ScopedCache;
 
 public static class IScopedCacheExtentions
 {

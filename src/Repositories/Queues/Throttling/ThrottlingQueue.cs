@@ -1,4 +1,4 @@
-﻿using Infrastructure.Utils.Repositories.Queues.Throttling.Models;
+﻿using RoeiBajayo.Infrastructure.Repositories.Queues.Throttling.Models;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Repositories.Queues.Throttling;
+namespace RoeiBajayo.Infrastructure.Repositories.Queues.Throttling;
 
 /// <summary>
 /// ThrottlingQueue that represents a queue that enforces a throttling policy on the items it holds. 

@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Infrastructure.Utils.Net;
+namespace RoeiBajayo.Infrastructure.Net;
 
 public sealed class IpRange(IPAddress from, IPAddress to)
 {

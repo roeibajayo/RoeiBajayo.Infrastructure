@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Infrastructure.Utils.IEnumerable;
+namespace RoeiBajayo.Infrastructure.IEnumerable;
 
 public class ArrayBuilder<T>
 {

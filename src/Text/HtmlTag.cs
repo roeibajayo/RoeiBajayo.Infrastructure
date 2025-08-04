@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Infrastructure.Utils.Text;
+namespace RoeiBajayo.Infrastructure.Text;
 
 public sealed class HtmlTag : ICssSelectable<HtmlTag>
 {

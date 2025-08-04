@@ -1,11 +1,11 @@
-﻿using Infrastructure.Utils.DependencyInjection;
-using Infrastructure.Utils.DependencyInjection.ScopedCache;
-using Infrastructure.Utils.Http.Models;
+﻿using RoeiBajayo.Infrastructure.DependencyInjection;
+using RoeiBajayo.Infrastructure.DependencyInjection.ScopedCache;
+using RoeiBajayo.Infrastructure.Http.Models;
 using MemoryCore;
 using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 
-namespace Infrastructure.Utils;
+namespace RoeiBajayo.Infrastructure;
 
 public static class DependencyInjectionExtensions
 {
@@ -16,7 +16,7 @@ public static class DependencyInjectionExtensions
     /// <typeparam name="TMaker">Marker type for identifying the required Assembly.</typeparam>
     public static void AddInfrastructureServices<TMaker>(this IServiceCollection services)
     {
-        var infrastructureMarker = typeof(IInfrastructureUtilsMarker);
+        var infrastructureMarker = typeof(IInfrastructureMarker);
         if (!services.Any(x => x.ServiceType == infrastructureMarker))
             services.AddInfrastructureServices();
 
@@ -30,8 +30,8 @@ public static class DependencyInjectionExtensions
     /// </summary>
     private static void AddInfrastructureServices(this IServiceCollection services)
     {
-        services.AddSingleton<IInfrastructureUtilsMarker>(x => null!);
-        services.AddMediatorCore<IInfrastructureUtilsMarker>();
+        services.AddSingleton<IInfrastructureMarker>(x => null!);
+        services.AddMediatorCore<IInfrastructureMarker>();
         services.AddMemoryCore();
         services.AddScopedCached();
         services.AddLazySupport();
@@ -39,6 +39,6 @@ public static class DependencyInjectionExtensions
         {
             FakeUserAgent = true,
         });
-        services.AddDependencyInjectionServices<IInfrastructureUtilsMarker>();
+        services.AddDependencyInjectionServices<IInfrastructureMarker>();
     }
 }

@@ -1,10 +1,10 @@
-﻿using Infrastructure.Utils.Repositories.Files;
+﻿using RoeiBajayo.Infrastructure.Repositories.Files;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Infrastructure.Utils.Repositories.Persistent;
+namespace RoeiBajayo.Infrastructure.Repositories.Persistent;
 
 public class ConcurrentSavableList<T> : ConcurrentBag<T>, ICollection<T>
 {

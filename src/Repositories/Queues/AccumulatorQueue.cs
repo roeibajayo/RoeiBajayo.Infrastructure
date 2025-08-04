@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using System.Timers;
 
-namespace Infrastructure.Utils.Repositories.Queues;
+namespace RoeiBajayo.Infrastructure.Repositories.Queues;
 
 /// <summary>
 /// Accumulate items and bulk process them. 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace Infrastructure.Utils.Expressions;
+namespace RoeiBajayo.Infrastructure.Expressions;
 
 public class PropertyInvoker<T, TProperty>(string fieldName)
 {

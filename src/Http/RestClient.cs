@@ -1,7 +1,7 @@
-﻿using Infrastructure.Utils.DependencyInjection.Interfaces;
-using Infrastructure.Utils.Http.Models;
-using Infrastructure.Utils.Repositories.Queues.Throttling;
-using Infrastructure.Utils.Threads;
+﻿using RoeiBajayo.Infrastructure.DependencyInjection.Interfaces;
+using RoeiBajayo.Infrastructure.Http.Models;
+using RoeiBajayo.Infrastructure.Repositories.Queues.Throttling;
+using RoeiBajayo.Infrastructure.Threads;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -17,7 +17,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace Infrastructure.Utils.Http;
+namespace RoeiBajayo.Infrastructure.Http;
 
 internal class RestClient : IRestClient, ISingletonService<IRestClient>
 {

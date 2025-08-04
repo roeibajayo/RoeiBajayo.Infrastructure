@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Infrastructure.Utils.Text.Analyzers.FrequencyAnalyzerStores;
+namespace RoeiBajayo.Infrastructure.Text.Analyzers.FrequencyAnalyzerStores;
 
 public class DeepMemoryStore : IDeepStore
 {

@@ -1,13 +1,13 @@
-﻿using Infrastructure.Utils.DependencyInjection.Interfaces;
-using Infrastructure.Utils.TextToSpeech.Interfaces;
-using Infrastructure.Utils.TextToSpeech.Models;
+﻿using RoeiBajayo.Infrastructure.DependencyInjection.Interfaces;
+using RoeiBajayo.Infrastructure.TextToSpeech.Interfaces;
+using RoeiBajayo.Infrastructure.TextToSpeech.Models;
 using MediatorCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.TextToSpeech;
+namespace RoeiBajayo.Infrastructure.TextToSpeech;
 
 internal class TextToSpeech(
     IPublisher publisher,

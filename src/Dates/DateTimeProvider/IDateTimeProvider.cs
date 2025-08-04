@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using System;
 
-namespace Infrastructure.Utils.Dates.DateTimeProvider;
+namespace RoeiBajayo.Infrastructure.Dates.DateTimeProvider;
 
 public interface IDateTimeProvider
 {

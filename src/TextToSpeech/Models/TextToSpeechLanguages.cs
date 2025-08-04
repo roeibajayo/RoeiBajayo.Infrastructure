@@ -1,4 +1,4 @@
-﻿namespace Infrastructure.Utils.TextToSpeech.Models;
+﻿namespace RoeiBajayo.Infrastructure.TextToSpeech.Models;
 
 public enum TextToSpeechLanguages
 {

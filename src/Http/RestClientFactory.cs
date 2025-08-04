@@ -1,10 +1,10 @@
-﻿using Infrastructure.Utils.DependencyInjection.Interfaces;
-using Infrastructure.Utils.Http.Models;
+﻿using RoeiBajayo.Infrastructure.DependencyInjection.Interfaces;
+using RoeiBajayo.Infrastructure.Http.Models;
 using MemoryCore;
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace Infrastructure.Utils.Http;
+namespace RoeiBajayo.Infrastructure.Http;
 
 internal class RestClientFactory(IMemoryCore cache, ILogger<RestClient> logger) 
     : IRestClientFactory, ISingletonService<IRestClientFactory>

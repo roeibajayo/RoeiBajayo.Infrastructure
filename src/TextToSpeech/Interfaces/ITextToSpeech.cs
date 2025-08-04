@@ -1,6 +1,6 @@
-﻿using Infrastructure.Utils.TextToSpeech.Models;
+﻿using RoeiBajayo.Infrastructure.TextToSpeech.Models;
 
-namespace Infrastructure.Utils.TextToSpeech.Interfaces;
+namespace RoeiBajayo.Infrastructure.TextToSpeech.Interfaces;
 
 public interface ITextToSpeech : ITextToSpeechService
 {

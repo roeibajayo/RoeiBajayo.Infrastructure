@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Infrastructure.Utils.Http.Models;
+namespace RoeiBajayo.Infrastructure.Http.Models;
 
 public class FormDataRestCallOptions : RestCallOptions
 {

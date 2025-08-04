@@ -1,4 +1,4 @@
-﻿using Infrastructure.Utils.Text;
+﻿using RoeiBajayo.Infrastructure.Text;
 using Xunit;
 using System;
 using System.Linq;

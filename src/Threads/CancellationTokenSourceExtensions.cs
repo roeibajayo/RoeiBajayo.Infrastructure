@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Infrastructure.Utils.Threads;
+namespace RoeiBajayo.Infrastructure.Threads;
 
 public static class CancellationTokenSourceExtensions
 {

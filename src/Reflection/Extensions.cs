@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
-namespace Infrastructure.Utils.Reflection;
+namespace RoeiBajayo.Infrastructure.Reflection;
 
 public static class Extensions
 {

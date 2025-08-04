@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Utils.DependencyInjection.Attributes;
+namespace RoeiBajayo.Infrastructure.DependencyInjection.Attributes;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class KeyedServiceAttribute(object key) : Attribute

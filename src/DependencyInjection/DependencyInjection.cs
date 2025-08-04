@@ -1,11 +1,11 @@
-﻿using Infrastructure.Utils.DependencyInjection.Attributes;
-using Infrastructure.Utils.DependencyInjection.Interfaces;
-using Infrastructure.Utils.Reflection;
+﻿using RoeiBajayo.Infrastructure.DependencyInjection.Attributes;
+using RoeiBajayo.Infrastructure.DependencyInjection.Interfaces;
+using RoeiBajayo.Infrastructure.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 using System.Reflection;
 
-namespace Infrastructure.Utils.DependencyInjection;
+namespace RoeiBajayo.Infrastructure.DependencyInjection;
 
 public static class DependencyInjectionExtensions
 {

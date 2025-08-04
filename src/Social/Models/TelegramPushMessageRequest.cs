@@ -1,6 +1,6 @@
 ﻿using MediatorCore;
 
-namespace Infrastructure.Utils.Social.Models;
+namespace RoeiBajayo.Infrastructure.Social.Models;
 
 public class TelegramPushMessageRequest : IQueueMessage
 {

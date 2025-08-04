@@ -1,11 +1,11 @@
-﻿using Infrastructure.Utils.Threads;
+﻿using RoeiBajayo.Infrastructure.Threads;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Repositories;
+namespace RoeiBajayo.Infrastructure.Repositories;
 
 /// <summary>
 /// Pool of generic T items, that allows you to recycle objects in order to avoid the overhead of creating and destroying them. 

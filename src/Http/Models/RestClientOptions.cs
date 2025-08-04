@@ -1,8 +1,8 @@
-﻿using Infrastructure.Utils.Repositories.Queues.Throttling.Models;
+﻿using RoeiBajayo.Infrastructure.Repositories.Queues.Throttling.Models;
 using System;
 using System.Collections.Generic;
 
-namespace Infrastructure.Utils.Http.Models;
+namespace RoeiBajayo.Infrastructure.Http.Models;
 
 public class RestClientOptions
 {

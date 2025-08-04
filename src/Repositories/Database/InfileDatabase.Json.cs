@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.Json;
 
-namespace Infrastructure.Utils.Repositories.Database;
+namespace RoeiBajayo.Infrastructure.Repositories.Database;
 
 public class JsonInfileDatabase<T>(string basePath, string name, string? idProperty = null) : 
     InfileDatabase<T>(basePath, name, idProperty)

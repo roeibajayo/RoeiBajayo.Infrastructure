@@ -1,7 +1,7 @@
-﻿using Infrastructure.Utils.Repositories.Files;
+﻿using RoeiBajayo.Infrastructure.Repositories.Files;
 using System.Collections.Generic;
 
-namespace Infrastructure.Utils.Http;
+namespace RoeiBajayo.Infrastructure.Http;
 
 public class SaveableCookiesRepository : InMemoryCookiesRepository
 {

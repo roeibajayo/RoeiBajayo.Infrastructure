@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Utils.Numbers;
+namespace RoeiBajayo.Infrastructure.Numbers;
 
 public static class NumbersExtensions
 {

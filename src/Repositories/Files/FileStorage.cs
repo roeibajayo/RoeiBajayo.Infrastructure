@@ -1,9 +1,9 @@
-﻿using Infrastructure.Utils.Repositories.Files.Serializers;
+﻿using RoeiBajayo.Infrastructure.Repositories.Files.Serializers;
 using System;
 using System.IO;
 using System.Threading;
 
-namespace Infrastructure.Utils.Repositories.Files;
+namespace RoeiBajayo.Infrastructure.Repositories.Files;
 
 public class FileStorage<T>(ISerializer<T> serializer)
 {

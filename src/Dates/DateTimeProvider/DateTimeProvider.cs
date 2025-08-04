@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Utils.Dates.DateTimeProvider;
+namespace RoeiBajayo.Infrastructure.Dates.DateTimeProvider;
 
 internal class DateTimeProvider : IDateTimeProvider
 {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace Infrastructure.Utils.Social;
+namespace RoeiBajayo.Infrastructure.Social;
 
 
 //https://api.telegram.org/bot<TOKEN>/getUpdates

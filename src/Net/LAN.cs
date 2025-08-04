@@ -1,11 +1,11 @@
-﻿using Infrastructure.Utils.Http;
+﻿using RoeiBajayo.Infrastructure.Http;
 using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Threading.Tasks;
 
-namespace Infrastructure.Utils.Net;
+namespace RoeiBajayo.Infrastructure.Net;
 
 public class LAN(IRestClient client)
 {
