@@ -2,6 +2,6 @@
 
 public interface IRestClientFactory
 {
-    IRestClient GetClient(string? name = null);
+    IRestClient GetClient(string? name = null, RestClientOptions? defaultOptions = null);
     void ResetClient(string? name = null);
 }
